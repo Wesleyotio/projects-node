@@ -30,7 +30,6 @@ RUN adduser -D $USER \
 USER $USER
 
 
-
-WORKDIR /app
+WORKDIR /usr/src/app
 
 ENTRYPOINT /bin/zsh
