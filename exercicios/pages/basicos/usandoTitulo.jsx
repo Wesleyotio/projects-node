@@ -6,9 +6,14 @@ export default function usandoTitulo() {
         <div>
             <Titulo
                 principal="Pagina de cadastro"
-                secundario="Incluir, alterar e excluir coisas"
+                secundario="Incluir, alterar e excluir coisas!!"
             />
-            <h1>Usando Título</h1>
+         
+            <Titulo
+                principal="Pagina que tem true"
+                secundario="Secundário de true"
+                pequeno
+            />
         </div>
     )
 }
